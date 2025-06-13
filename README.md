@@ -1,73 +1,106 @@
-# Welcome to your Lovable project
+<img src="https://repository-images.githubusercontent.com/1001527692/4e7923ec-1017-40ff-b509-e16533cb1758" width="400">
 
-## Project info
+# Hafalah
+Transform your Quran and Dua memorization journey into an engaging, gamified experience! Hafalah combines the sacred act of memorizing holy verses with modern learning techniques, making your spiritual growth both rewarding and enjoyable.
 
-**URL**: https://lovable.dev/projects/d47fe79e-737f-48ec-9583-474f6303fb0d
+## Features
+- [ ] - **Interactive Memorization Cards** - Swipe through beautifully designed verse cards with Arabic text and translations
+- [ ] - **Progress Tracking System** - Monitor your memorization journey with detailed statistics and milestones
+- [ ] - **Gamified Learning** - Earn points, unlock achievements, and level up as you memorize more verses
+- [ ] - **Spaced Repetition Algorithm** - Smart review system that optimizes your retention using proven learning techniques
+- [ ] - **Audio Recitation Support** - Listen to beautiful recitations to perfect your pronunciation
+- [ ] - **Custom Study Sets** - Create personalized collections of verses and duas for focused learning
+- [ ] - **Offline Mode** - Continue your memorization journey anywhere, anytime without internet connection
+- [ ] - **Multiple Reciters** - Choose from various renowned Qaris for audio guidance
+- [ ] - **Dark/Light Theme** - Comfortable reading experience in any lighting condition
 
-## How can I edit this code?
+## Tech Stack
+- **Frontend Framework**: React Native / Flutter (cross-platform mobile app)
+- **Backend**: Node.js with Express
+- **Database**: MongoDB for user progress and verse storage
+- **Authentication**: Firebase Auth
+- **Audio Streaming**: Custom audio player with caching
+- **Offline Storage**: SQLite for local data persistence
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
+- Node.js (version 16 or higher)
+- React Native CLI or Flutter SDK
+- Android Studio / Xcode for mobile development
+- MongoDB database (local or cloud)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d47fe79e-737f-48ec-9583-474f6303fb0d) and start prompting.
+### Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+#### For Users:
+1. Download the app from Google Play Store or Apple App Store (coming soon)
+2. Create your account or sign in with existing credentials
+3. Choose your preferred reciter and language settings
+4. Start your memorization journey with guided onboarding
 
-**Use your preferred IDE**
+#### For Developers:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/hafalah.git
+   cd hafalah
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. Set up environment variables:
+   ```bash
+   cp .env.example .env
+   # Edit .env with your Firebase and MongoDB credentials
+   ```
 
-Follow these steps:
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+5. Run on mobile device/emulator:
+   ```bash
+   npm run android  # For Android
+   npm run ios      # For iOS
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Available Scripts
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run android` - Run Android app
+- `npm run ios` - Run iOS app
+- `npm run test` - Run unit tests
+- `npm run lint` - Run ESLint for code quality
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Contributing
+We welcome contributions from the Muslim developer community! Here's how you can help:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
+3. **Make your changes** and test them thoroughly
+4. **Commit your changes**: `git commit -m 'Add some amazing feature'`
+5. **Push to the branch**: `git push origin feature/amazing-feature`
+6. **Open a Pull Request**
 
-**Edit a file directly in GitHub**
+### Contribution Guidelines
+- Follow Islamic principles in all contributions
+- Ensure accuracy of Quranic verses and translations
+- Test memorization algorithms thoroughly across different learning patterns
+- Write clear, descriptive commit messages
+- Add tests for new features when applicable
+- Update documentation as needed
+- Be respectful and constructive in discussions
+- Consider accessibility for users with different learning abilities
+- Respect copyright for audio recitations and translations
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Use GitHub Codespaces**
+## Support
+If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/hafalah/issues) on GitHub.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d47fe79e-737f-48ec-9583-474f6303fb0d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+Made with ❤️ by [Ambik Project](https://ambik.link)
